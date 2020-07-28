@@ -90,5 +90,8 @@ if((positiontop>10) && (positiontop>220))
 
 
 });
-/*   map */
+
+document.getElementById("button").onclick=function(){
+    document.getElementById("confirm").innerHTML="Thank you please check your email for more information"
+}
 
